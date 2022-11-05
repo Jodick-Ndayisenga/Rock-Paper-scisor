@@ -1,7 +1,7 @@
 import random
 names = []
 attempts = 0
-y = input('Welcome to the game. Click Q if you do not want to play and want to quit and anything to continue: ').lower()
+y = input('Welcome to the game. Click Q if you do not want to play but rather quit and anything to continue: ').lower()
 if y == 'q':
     print('Goodbye')
     quit()
